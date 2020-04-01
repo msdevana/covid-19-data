@@ -13074,11 +13074,6 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<<<<<<< HEAD
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-=======
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13093,7 +13088,6 @@ plotting package).</p>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
->>>>>>> temp-branch
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13106,11 +13100,6 @@ plotting package).</p>
 </div>
 
 </div>
-<<<<<<< HEAD
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[129]:</div>
-=======
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13120,8 +13109,7 @@ plotting package).</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
->>>>>>> temp-branch
+<div class="prompt input_prompt">In&nbsp;[418]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="nx">javascript</span>
@@ -13158,17 +13146,10 @@ plotting package).</p>
 
 
 
-<<<<<<< HEAD
-<div id="15111c3b-3114-437f-93a2-47a018440cfb"></div>
+<div id="f335bac8-1bb3-4e43-b24f-3e994218474f"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#15111c3b-3114-437f-93a2-47a018440cfb');
-=======
-<div id="1a0beb50-0dde-44bc-a75a-cf1ddf38698c"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#1a0beb50-0dde-44bc-a75a-cf1ddf38698c');
->>>>>>> temp-branch
+var element = $('#f335bac8-1bb3-4e43-b24f-3e994218474f');
 //hack to fix export
 require.config({
   paths: {
@@ -13194,11 +13175,6 @@ require.config({
 </div>
 
 </div>
-<<<<<<< HEAD
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
-=======
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13212,22 +13188,14 @@ require.config({
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[225]:</div>
->>>>>>> temp-branch
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load county level  </span>
 <span class="c1"># there is also a state level data but you can get the same values by adding up</span>
-<<<<<<< HEAD
-<span class="c1"># counties so no need to double load files</span>
-<span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;us-counties.csv&#39;</span>
-<span class="n">counties</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
-<span class="n">counties</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-=======
 <span class="c1"># counties so no need to double load files - link is for regularly updated nyt file</span>
 <span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv&#39;</span>
 <span class="n">counties</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
 <span class="n">counties</span><span class="o">.</span><span class="n">head</span><span class="p">()</span> <span class="c1"># previews the dataframe</span>
->>>>>>> temp-branch
 </pre></div>
 
     </div>
@@ -13240,11 +13208,7 @@ require.config({
 
 <div class="output_area">
 
-<<<<<<< HEAD
-    <div class="prompt output_prompt">Out[131]:</div>
-=======
     <div class="prompt output_prompt">Out[225]:</div>
->>>>>>> temp-branch
 
 
 
@@ -13332,22 +13296,6 @@ require.config({
 </div>
 
 </div>
-<<<<<<< HEAD
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># show a bar graph of state by state totals</span>
-
-<span class="c1"># first step - get state totals</span>
-
-<span class="c1"># the data is set as total cases each day so the latest total is the latest date</span>
-<span class="n">countiesLatest</span> <span class="o">=</span> <span class="n">counties</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">counties</span><span class="o">.</span><span class="n">date</span> <span class="o">==</span> <span class="n">counties</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">max</span><span class="p">()]</span>
-
-<span class="n">stateTot</span> <span class="o">=</span> <span class="n">countiesLatest</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">stateTot</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-=======
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13369,7 +13317,6 @@ require.config({
 <span class="c1"># group by state and get the sums</span>
 <span class="n">stateTotLatest</span> <span class="o">=</span> <span class="n">countiesLatest</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">stateTotLatest</span><span class="o">.</span><span class="n">head</span><span class="p">()</span> <span class="c1"># previews the dataframe</span>
->>>>>>> temp-branch
 </pre></div>
 
     </div>
@@ -13382,11 +13329,7 @@ require.config({
 
 <div class="output_area">
 
-<<<<<<< HEAD
-    <div class="prompt output_prompt">Out[132]:</div>
-=======
     <div class="prompt output_prompt">Out[226]:</div>
->>>>>>> temp-branch
 
 
 
@@ -13424,43 +13367,18 @@ require.config({
     <tr>
       <td>Alabama</td>
       <td>63115.0</td>
-<<<<<<< HEAD
-      <td>947</td>
-      <td>11</td>
-=======
       <td>999</td>
       <td>13</td>
->>>>>>> temp-branch
     </tr>
     <tr>
       <td>Alaska</td>
       <td>12642.0</td>
-<<<<<<< HEAD
-      <td>120</td>
-=======
       <td>133</td>
->>>>>>> temp-branch
       <td>2</td>
     </tr>
     <tr>
       <td>Arizona</td>
       <td>60208.0</td>
-<<<<<<< HEAD
-      <td>1169</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <td>Arkansas</td>
-      <td>258705.0</td>
-      <td>567</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>California</td>
-      <td>296827.0</td>
-      <td>7423</td>
-      <td>147</td>
-=======
       <td>1298</td>
       <td>17</td>
     </tr>
@@ -13475,7 +13393,6 @@ require.config({
       <td>302890.0</td>
       <td>8585</td>
       <td>186</td>
->>>>>>> temp-branch
     </tr>
   </tbody>
 </table>
@@ -13488,24 +13405,6 @@ require.config({
 </div>
 
 </div>
-<<<<<<< HEAD
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
-=======
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13516,7 +13415,6 @@ require.config({
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[227]:</div>
->>>>>>> temp-branch
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># use plotly to make some interactive charts:</span>
@@ -13530,18 +13428,6 @@ require.config({
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<<<<<<< HEAD
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># graph 1: bar chart with state totals</span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Bar</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">stateTot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
-    <span class="n">y</span><span class="o">=</span><span class="n">stateTot</span><span class="o">.</span><span class="n">cases</span><span class="p">,</span>
-    <span class="n">text</span><span class="o">=</span><span class="n">stateTot</span><span class="o">.</span><span class="n">cases</span><span class="p">,</span>
-    <span class="n">hovertemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{x}</span><span class="s1">: %</span><span class="si">{y}</span><span class="s1"> &lt;extra&gt;&lt;/extra&gt;&#39;</span><span class="p">,</span>
-=======
 <div class="prompt input_prompt">In&nbsp;[413]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13552,7 +13438,6 @@ require.config({
     <span class="n">y</span><span class="o">=</span><span class="n">stateTotLatest</span><span class="o">.</span><span class="n">cases</span><span class="p">,</span>
     <span class="n">text</span><span class="o">=</span><span class="n">stateTotLatest</span><span class="o">.</span><span class="n">cases</span><span class="p">,</span>
     <span class="n">hovertemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{x}</span><span class="s1">: %</span><span class="si">{y}</span><span class="s1"> &lt;extra&gt;&lt;/extra&gt;&#39;</span><span class="p">,</span> <span class="c1"># sets up what you see when you hover over the figure</span>
->>>>>>> temp-branch
     <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span>
 <span class="p">),</span>
                 <span class="n">layout</span><span class="o">=</span>
@@ -13582,33 +13467,19 @@ require.config({
 <div>
         
         
-<<<<<<< HEAD
-            <div id="413fbc7e-d5af-49f6-9a42-789c00bc1d02" class="plotly-graph-div" style="height:600px; width:1000px;"></div>
-=======
             <div id="b7b3b4bc-2fad-4f9d-922f-3d25753da21e" class="plotly-graph-div" style="height:600px; width:1000px;"></div>
->>>>>>> temp-branch
             <script type="text/javascript">
                 require(["plotly"], function(Plotly) {
                     window.PLOTLYENV=window.PLOTLYENV || {};
                     
-<<<<<<< HEAD
-                if (document.getElementById("413fbc7e-d5af-49f6-9a42-789c00bc1d02")) {
-                    Plotly.newPlot(
-                        '413fbc7e-d5af-49f6-9a42-789c00bc1d02',
-                        [{"hovertemplate": "%{x}: %{y} <extra></extra>", "marker": {"color": "red"}, "text": [947.0, 120.0, 1169.0, 567.0, 7423.0, 2656.0, 2571.0, 264.0, 495.0, 5696.0, 3032.0, 60.0, 199.0, 415.0, 5125.0, 1788.0, 424.0, 374.0, 484.0, 4025.0, 275.0, 1415.0, 5752.0, 6509.0, 577.0, 848.0, 1051.0, 177.0, 185.0, 1044.0, 314.0, 16636.0, 282.0, 67216.0, 1305.0, 110.0, 2.0, 1933.0, 481.0, 607.0, 4156.0, 174.0, 415.0, 925.0, 102.0, 1729.0, 3046.0, 806.0, 277.0, 30.0, 1021.0, 4932.0, 145.0, 1269.0, 96.0], "type": "bar", "x": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida", "Georgia", "Guam", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Puerto Rico", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virgin Islands", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"], "y": [947, 120, 1169, 567, 7423, 2656, 2571, 264, 495, 5696, 3032, 60, 199, 415, 5125, 1788, 424, 374, 484, 4025, 275, 1415, 5752, 6509, 577, 848, 1051, 177, 185, 1044, 314, 16636, 282, 67216, 1305, 110, 2, 1933, 481, 607, 4156, 174, 415, 925, 102, 1729, 3046, 806, 277, 30, 1021, 4932, 145, 1269, 96]}],
-=======
                 if (document.getElementById("b7b3b4bc-2fad-4f9d-922f-3d25753da21e")) {
                     Plotly.newPlot(
                         'b7b3b4bc-2fad-4f9d-922f-3d25753da21e',
                         [{"hovertemplate": "%{x}: %{y} <extra></extra>", "marker": {"color": "red"}, "text": [999.0, 133.0, 1298.0, 620.0, 8585.0, 2990.0, 3128.0, 319.0, 495.0, 6744.0, 4126.0, 139.0, 224.0, 526.0, 6046.0, 2168.0, 498.0, 435.0, 599.0, 5237.0, 303.0, 1662.0, 6620.0, 7630.0, 630.0, 941.0, 1351.0, 198.0, 201.0, 1113.0, 367.0, 18696.0, 315.0, 75832.0, 1529.0, 126.0, 2.0, 2199.0, 566.0, 690.0, 4997.0, 239.0, 595.0, 1083.0, 108.0, 1899.0, 3594.0, 887.0, 305.0, 30.0, 1250.0, 5061.0, 162.0, 1351.0, 121.0], "type": "bar", "x": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida", "Georgia", "Guam", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Puerto Rico", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virgin Islands", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"], "y": [999, 133, 1298, 620, 8585, 2990, 3128, 319, 495, 6744, 4126, 139, 224, 526, 6046, 2168, 498, 435, 599, 5237, 303, 1662, 6620, 7630, 630, 941, 1351, 198, 201, 1113, 367, 18696, 315, 75832, 1529, 126, 2, 2199, 566, 690, 4997, 239, 595, 1083, 108, 1899, 3594, 887, 305, 30, 1250, 5061, 162, 1351, 121]}],
->>>>>>> temp-branch
                         {"height": 600, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "width": 1000},
                         {"responsive": true}
                     ).then(function(){
                             
-<<<<<<< HEAD
-var gd = document.getElementById('413fbc7e-d5af-49f6-9a42-789c00bc1d02');
-=======
 var gd = document.getElementById('b7b3b4bc-2fad-4f9d-922f-3d25753da21e');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
@@ -13949,7 +13820,6 @@ time. The interactive features and tools built into plotly make it very useful f
                     ).then(function(){
                             
 var gd = document.getElementById('9e14a512-e891-4f43-9910-921840acce98');
->>>>>>> temp-branch
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
